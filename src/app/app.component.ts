@@ -9,7 +9,7 @@ import { ShoppingListPage} from "../pages/shopping-list/shopping-list";
 })
 export class MyApp {
   //rootPage:any = HomePage;
-  rootPage:any = ShoppingListPage;
+  rootPage:any = 'LoginPage';
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
